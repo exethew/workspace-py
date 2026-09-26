@@ -36,6 +36,10 @@ workspace-py/
 
 Aqui ficam os conteúdos de cursos que estou cursando de fato em instituições (como IFMG, IFRS, entre outras). Cada curso tem sua própria pasta, e a organização interna (módulos, categorias etc.) é definida assim que aquele curso específico começa — já que cada instituição estrutura o conteúdo de um jeito diferente.
 
+   ### Cursos em andamento:
+   - **sl-git** — Git Training (Simplilearn)
+   - **fcc-python** — Certificação em Python (freeCodeCamp)
+
 ### [`learning-path/`](./learning-path)
 
 Minha trilha autodidata, construída de forma progressiva, começando pelos fundamentos de Python e se ramificando em tópicos mais específicos conforme o tempo passa. Cada fase só é criada quando realmente começa.
