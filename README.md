@@ -12,7 +12,7 @@
 
 ## 📌 Sobre este repositório
 
-Este repositório reúne tudo que envolve **aprendizado de Python**, dividido em duas frentes:
+Este repositório reúne tudo que envolve **aprendizado de Python**, ___porém, pode have cursos distintos.___ dividido em duas frentes:
 
 - Cursos que estou **fazendo** em instituições de ensino
 - Uma trilha que estou **construindo aos poucos**, com apoio de IA, começando do básico e avançando conforme os tópicos forem surgindo
@@ -51,3 +51,4 @@ Minha trilha autodidata, construída de forma progressiva, começando pelos fund
 - Nomes de pastas e arquivos ficam sempre em **inglês**, independente do idioma usado no conteúdo ou nas anotações.
 - Cada README criado dentro deste repositório segue o mesmo padrão visual: uma introdução animada, guardada em `assets/`.
 - Este repositório reflete **progresso, não um produto finalizado** — atualizações acontecem conforme o aprendizado avança.
+- O repositório utilizará somente a Linguagem **Python**, concomitantemente podem haver cursos diferentes, exemplo: `sl-git`, ele ajuda na jornada como ___dev___, e pode sim estar dentro deste repositório.
