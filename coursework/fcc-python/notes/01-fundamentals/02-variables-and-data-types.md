@@ -8,7 +8,7 @@
 
 Para criar uma variável, escrevemos o nome à esquerda e usamos o operador de atribuição (`=`) para guardar o valor que está à direita.
 
-![Exemplo de declaração de variáveis: name recebe a string "exethew" e commits recebe o inteiro 0, com um comentário acima](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/variable-example.svg)
+![Exemplo de declaração de variáveis: name recebe a string "exethew" e commits recebe o inteiro 0, com um comentário acima](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/variable-example.svg "Exemplo da Declaração de Variável")
 
 No exemplo, a variável `name` guarda o valor `"exethew"`, que é uma **string** (cadeia de caracteres usada para representar texto). Podemos declarar strings com aspas duplas `""` ou simples `''`.
 
@@ -55,7 +55,7 @@ Nesse caso, `'Hello world!'` é um **argumento** passado para a função.
 
 Também podemos exibir **vários argumentos** de uma vez, separando-os por vírgulas:
 
-![Exemplo de print com vários argumentos: print('My favorite colors are', 'blue', 'green', 'red') mostra My favorite colors are blue green red](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/print-multiple-arguments.svg)
+![Exemplo de print com vários argumentos: print('My favorite colors are', 'blue', 'green', 'red') mostra My favorite colors are blue green red](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/print-multiple-arguments.svg "Exemplo de como utilizar a função Print")
 
 > 💡 O Python adiciona automaticamente um **espaço** entre cada item separado por vírgula.
 
@@ -83,7 +83,7 @@ age = 'Twenty-five'
 
 ### Os quatro tipos principais
 
-![Exemplo dos quatro tipos de dados: integer_var com 10, float_var com 1.5, string_var com 'exethew' e boolean_var com True, com comentários explicando cada tipo](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/data-types.svg)
+![Exemplo dos quatro tipos de dados: integer_var com 10, float_var com 1.5, string_var com 'exethew' e boolean_var com True, com comentários explicando cada tipo](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/data-types.svg "Mostrando os tipos de variáveis")
 | Tipo | Nome no Python | Descrição | Exemplo |
 |------|----------------|-----------|---------|
 | Inteiro | `int` | Número sem casas decimais | `10`, `-5` |
@@ -101,7 +101,7 @@ age = 'Twenty-five'
 
 Para ver o tipo de uma variável, usamos a função `type()`:
 
-![Exemplo de type(): developer recebe 'exethew' e print(type(developer)) mostra a classe str](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/type-example.svg)
+![Exemplo de type(): developer recebe 'exethew' e print(type(developer)) mostra a classe str](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/type-example.svg "Demonstração de como utilizar a função Type")
 
 O que `type()` mostra para cada tipo que vimos:
 
@@ -118,7 +118,7 @@ O que `type()` mostra para cada tipo que vimos:
 
 Às vezes precisamos conferir o tipo de uma variável **antes** de fazer operações com ela. Por exemplo, tentar dividir uma string por um número gera erro:
 
-![Exemplo de erro: dividir a string '12' por 2 gera TypeError: unsupported operand type(s) for /: 'str' and 'int'](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/type-error-example.svg)
+![Exemplo de erro: dividir a string '12' por 2 gera TypeError: unsupported operand type(s) for /: 'str' and 'int'](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/type-error-example.svg "Demonstração de erro com diferentes dados")
 
 Para checar se `account_balance` é um inteiro, usamos `isinstance()`:
 
@@ -132,7 +132,7 @@ A função recebe **um valor** e **o tipo** contra o qual queremos verificar, e 
 
 Também podemos verificar **vários tipos de uma vez**, passando-os numa tupla:
 
-![Exemplo de isinstance(): account_balance recebe 12 e isinstance(account_balance, (int, float)) retorna True](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/isinstance-example.svg)
+![Exemplo de isinstance(): account_balance recebe 12 e isinstance(account_balance, (int, float)) retorna True](/assets/fcc-python/01-fundamentals/02-variables-and-data-types/isinstance-example.svg "Utilização da função isinstance")
 
 Aqui `account_balance` é um inteiro, então o retorno é `True`. Se fosse `12.0`, ainda retornaria `True`, porque estamos checando por `int` **ou** `float`.
 
