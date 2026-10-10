@@ -29,7 +29,7 @@ Esta pasta faz parte do [`workspace-py`](../../README.md) e reúne tudo o que eu
 
 - Um arquivo `.md` por aula, dentro da pasta do módulo correspondente (`notes/01-<module>/01-<topic>.md`).
 - Conteúdo em português, nomes de pastas e arquivos em inglês.
-- Código sempre em blocos de código do Markdown, com a linguagem indicada, para dar para copiar e testar.
+- Exemplos principais em imagens SVG (em assets/fcc-python/notes/), e trechos pequenos em blocos de código do Markdown, com a linguagem indicada. O código executável fica em [`practice/`](practice/).
 
 ## ✅ Progresso
 
